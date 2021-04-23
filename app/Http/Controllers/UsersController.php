@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use \Crypt;
 use Auth;
+use DB;
+
 
 class UsersController extends Controller
 {
